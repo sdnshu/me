@@ -9,7 +9,7 @@ const Page = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <main>
+        <main className="max-w-3xl mx-auto px-6 py-12 md:py-20">
 
             <section className="mb-16 md:mb-24">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
