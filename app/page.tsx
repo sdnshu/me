@@ -1,5 +1,6 @@
 import React from 'react'
 import { Projects } from './_components/projects'
+import { Writings } from './_components/writings'
 
 const Page = () => {
 
@@ -47,7 +48,9 @@ const Page = () => {
                 </div>
             </section>
 
-            <Projects/>
+            <Projects />
+
+            <Writings />
 
         </main>
     )
