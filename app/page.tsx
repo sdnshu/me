@@ -1,9 +1,12 @@
 import React from 'react'
-import { Projects } from './_components/projects'
-import { Writings } from './_components/writings'
-import { Contact } from './_components/contact'
+
+import { Contact } from '@/app/_components/contact'
+import { Projects } from '@/app/_components/projects'
+import { Writings } from '@/app/_components/writings'
 
 const Page = () => {
+
+    const currentYear = new Date().getFullYear();
 
     return (
         <main>
@@ -54,6 +57,13 @@ const Page = () => {
             <Writings />
 
             <Contact />
+
+            <footer className="border-t border-neutral-200 dark:border-neutral-800 pt-8 pb-16">
+                <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-neutral-500">
+                    <p>© {currentYear} Alex Morgan. All rights reserved.</p>
+                    <p>Built with Next.js, TypeScript, and Tailwind CSS</p>
+                </div>
+            </footer>
 
         </main>
     )
