@@ -17,7 +17,7 @@ const RootLayout = ({
 }>) => {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body>
+            <body className='poppins-regular'>
                 <ThemeProvider
                     attribute="class"
                     defaultTheme="dark"
