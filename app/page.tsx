@@ -1,6 +1,7 @@
 import React from 'react'
 import { Projects } from './_components/projects'
 import { Writings } from './_components/writings'
+import { Contact } from './_components/contact'
 
 const Page = () => {
 
@@ -51,6 +52,8 @@ const Page = () => {
             <Projects />
 
             <Writings />
+
+            <Contact />
 
         </main>
     )
